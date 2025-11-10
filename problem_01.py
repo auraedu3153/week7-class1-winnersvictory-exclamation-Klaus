@@ -10,3 +10,5 @@ def min_count_of_squares(board: list[list[str]]) -> int:
                     s += ans[i+x][j+y]
             m = min(m, s, 64 - s)
     return m
+
+
